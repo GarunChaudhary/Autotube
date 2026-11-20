@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+**/.env
+**/data/
+**/secrets/
+*.key
+*.pem
+credentials.json
+token*.json
+client_secret*.json
+
+# Deploy bundle contains secrets (.env, credentials.json, secure.key)
+AutoTube_Server_Deploy/*.tar.gz
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+node_modules/
+.next/
+out/
+
+# Local tooling
+.claude/
